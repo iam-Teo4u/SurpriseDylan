@@ -21,12 +21,12 @@ function texts(color) {
   ctx.shadowColor = color;
   ctx.fillStyle = color;
   ctx.setTransform(1, -0.15, 0, 1, 0, -10);
-  ctx.fillText("Glitch", innerWidth / 2, innerHeight / 2 - 5);
+  ctx.fillText("Recursos no encontrados", innerWidth / 2, innerHeight / 2 - 5);
 
   ctx.fillStyle = "white";
   ctx.shadowBlur = 30;
   ctx.shadowColor = color;
-  ctx.fillText("Glitch", innerWidth / 2, innerHeight / 2);
+  ctx.fillText("Recursos Dylan", innerWidth / 2, innerHeight / 2);
 
   ctx.font = "18vh Bungee Inline";
   ctx.shadowBlur = 30;
@@ -34,7 +34,7 @@ function texts(color) {
   ctx.fillStyle = "#fff";
   ctx.setTransform(1, -0.15, 0, 1, 0, -10);
   ctx.fillText(
-  "Effect",
+  "DylAN",
   innerWidth / 2,
   innerHeight / 2 + innerHeight / 10);
 
